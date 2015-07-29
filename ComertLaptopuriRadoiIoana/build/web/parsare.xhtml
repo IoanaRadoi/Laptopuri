@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<!DOCTYPE html>
+
+
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:p="http://primefaces.org/ui"
+      xmlns:f="http://xmlns.jcp.org/jsf/core"> 
+    <h:head>
+        <title>Facelet Title</title>
+        <link type="text/css" rel="stylesheet" href="#{request.contextPath}/css/main.css" />
+    </h:head>
+    <h:body>
+        <div class="banner">
+<!--            elementul "Carosel" din PrimeFaces cu ajutorul caruia afisez lista de obiecte-->
+            <h:form>            
+                <p:carousel numVisible="3" style="margin-top: 0px; margin-left: 60px; margin-top: 45px" value="#{laptopList.laptopuri}" headerText="Laptop-uri" var="laptop" itemStyleClass="carItem">
+                    <h:panelGrid columns="2" style="font-size: 11px;" cellpadding="1" columnClasses="label,value">
+                        <f:facet name="header">
+                            <p:graphicImage style="margin-left: 180px; width: 100px; height: 100px;" value="/imagini/#{laptop.poza}.jpg"/> 
+                        </f:facet>
+                      
+                        <h:outputText value="Marca:" />
+                        <h:outputText value="#{laptop.marca}" />
+
+                        <h:outputText value="Tip:" />
+                        <h:outputText value="#{laptop.tip}" />
+
+                        <h:outputText value="Denumire:" />
+                        <h:outputText value="#{laptop.denumire}" />
+                        
+                        <h:outputText value="Disponibilitate:" />
+                        <h:outputText value="#{laptop.disponibilitate}" />
+
+                        <h:outputText value="Frecventa_procesor:" />
+                        <h:outputText value="#{laptop.frec_proc}" />
+                        
+                        <h:outputText value="Dimensiune Cache:" />
+                        <h:outputText value="#{laptop.dim_cache}" />
+                        
+                        <h:outputText value="Tip unitate de stocare:" />
+                        <h:outputText value="#{laptop.tip_unitate_stocare}" />
+                        
+                        <h:outputText value="Memorie Ram:" />
+                        <h:outputText value="#{laptop.memorie_ram}" />
+                        
+                        <h:outputText value="Capacitate HDD:" />
+                        <h:outputText value="#{laptop.cap_hdd}" />
+                        
+                        <h:outputText value="Pret:" />
+                        <h:outputText value="#{laptop.pret}" />               
+
+                    </h:panelGrid>
+                </p:carousel>
+            </h:form>
+        </div>>
+    </h:body>
+</html>

@@ -1,0 +1,44 @@
+div,table,body,p,a,li,ul{
+    margin:0px;
+    padding: 0px;
+}
+body{
+    
+    background-color: silver;
+}
+.banner{
+    width: 1000px;
+    height: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 80px;
+    margin-bottom: auto;
+    align : right;
+    background-image: url('../imagini/poza_laptop2.jpg');
+    
+    
+}
+
+.upload{
+    width: 1000px;      
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+.buton1{
+       padding-top:  80px;
+       padding-left:  800px;
+       
+       
+}
+.buton2{
+       padding-top:  60px;
+       padding-left:  800px;
+       
+}
+
+
+
+
+

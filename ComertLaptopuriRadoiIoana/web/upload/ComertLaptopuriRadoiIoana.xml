@@ -1,0 +1,150 @@
+<?xml version="1.0"?>
+<magazin>
+	<date_magazin>
+		<nr_telefon>989786675</nr_telefon>
+		<adresa>
+			<strada>Str. Iuliu Maniu 7 Corp A parter</strada>
+			<sector>Sector 6</sector>
+			<oras>Bucuresti</oras>
+		</adresa>
+	</date_magazin>
+	<laptop-uri>
+		<producator marca="Acer">
+			<procesor tip="Intel Core i3">
+				<laptop>
+					<denumire>Laptop Acer Aspire</denumire>
+					<disponibilitate>In stoc furnizor</disponibilitate>
+					<caracteristici>
+						<descriere tip="Frecventa procesor">1.8 GHz</descriere>
+						<descriere tip="Dimensiune Cache procesor">3 MB</descriere>
+						<descriere tip="Tip unitate de stocare">HDD</descriere>
+						<descriere tip="Memorie RAM">4GB</descriere>
+						<descriere tip="Capacitate HDD">500GB</descriere>
+						<descriere tip="Pret">1700</descriere>
+					</caracteristici>
+					<poza>poza1</poza>
+				</laptop>
+			</procesor>
+			<procesor tip="Intel Core i5">
+				<laptop>
+					<denumire>Laptop Acer E5-572G-58KY</denumire>
+					<disponibilitate>In stoc furnizor</disponibilitate>
+					<caracteristici>
+						<descriere tip="Frecventa procesor">2.6 GHz</descriere>
+						<descriere tip="Dimensiune Cache procesor">3 MB</descriere>
+						<descriere tip="Tip unitate de stocare">HDD</descriere>
+						<descriere tip="Memorie RAM">4GB</descriere>
+						<descriere tip="Capacitate HDD">500GB</descriere>
+						<descriere tip="Pret">2000</descriere>
+					</caracteristici>
+					<poza>poza2</poza>
+				</laptop>
+			</procesor>
+			<procesor tip="Intel Core i7">
+				<laptop>
+					<denumire>Laptop Acer E5-572G-732J</denumire>
+					<disponibilitate>In stoc furnizor</disponibilitate>
+					<caracteristici>
+						<descriere tip="Frecventa procesor">2.3 GHz</descriere>
+						<descriere tip="Dimensiune Cache procesor">6 MB</descriere>
+						<descriere tip="Tip unitate de stocare">HDD</descriere>
+						<descriere tip="Memorie RAM">4GB</descriere>
+						<descriere tip="Capacitate HDD">500GB</descriere>
+						<descriere tip="Pret">1200</descriere>
+					</caracteristici>
+					<poza>poza3</poza>
+				</laptop>
+			</procesor>
+		</producator>
+		<producator marca="Lenovo">
+			<procesor tip="Intel Core i3">
+				<laptop>
+					<denumire>Laptop Lenovo Essential B590</denumire>
+					<disponibilitate>In stoc furnizor</disponibilitate>
+					<caracteristici>
+						<descriere tip="Frecventa procesor">2.4 GHz</descriere>
+						<descriere tip="Dimensiune Cache procesor">2 MB</descriere>
+						<descriere tip="Tip unitate de stocare">HDD</descriere>
+						<descriere tip="Memorie RAM">4GB</descriere>
+						<descriere tip="Capacitate HDD">500GB</descriere>
+						<descriere tip="Pret">1700</descriere>
+					</caracteristici>
+					<poza>poza4</poza>
+				</laptop>
+				<laptop>
+					<denumire>Lenovo B590</denumire>
+					<disponibilitate>In stoc furnizor</disponibilitate>
+					<caracteristici>
+						<descriere tip="Frecventa procesor">1.7 GHz</descriere>
+						<descriere tip="Dimensiune Cache procesor">3 MB</descriere>
+						<descriere tip="Tip unitate de stocare">HDD</descriere>
+						<descriere tip="Memorie RAM">4GB</descriere>
+						<descriere tip="Capacitate HDD">500GB</descriere>
+						<descriere tip="Pret">1700</descriere>
+					</caracteristici>
+					<poza>poza5</poza>
+				</laptop>
+			</procesor>
+			<procesor tip="Intel Core i5">
+				<laptop>
+					<denumire>Lenovo Essential B590</denumire>
+					<disponibilitate>In stoc furnizor</disponibilitate>
+					<caracteristici>
+						<descriere tip="Frecventa procesor">2.4 GHz</descriere>
+						<descriere tip="Dimensiune Cache procesor">6 MB</descriere>
+						<descriere tip="Tip unitate de stocare">HDD</descriere>
+						<descriere tip="Memorie RAM">4GB</descriere>
+						<descriere tip="Capacitate HDD">500GB</descriere>
+						<descriere tip="Pret">1499</descriere>
+					</caracteristici>
+					<poza>poza6</poza>
+				</laptop>
+			</procesor>
+			<procesor tip="Intel Core i7">
+				<laptop>
+					<denumire>Lenovo IdeaPad Z50-70</denumire>
+					<disponibilitate>In stoc furnizor</disponibilitate>
+					<caracteristici>
+						<descriere tip="Frecventa procesor">3.1 GHz</descriere>
+						<descriere tip="Dimensiune Cache procesor">6 MB</descriere>
+						<descriere tip="Tip unitate de stocare">HDD</descriere>
+						<descriere tip="Memorie RAM">8GB</descriere>
+						<descriere tip="Capacitate HDD">500GB</descriere>
+						<descriere tip="Pret">3000</descriere>
+					</caracteristici>
+					<poza>poza7</poza>
+				</laptop>
+			</procesor>
+		</producator>
+		<producator marca="Apple">
+			<procesor tip="Intel Core i5">
+				<laptop>
+					<denumire>Apple MacBook Air 11</denumire>
+					<disponibilitate>In stoc furnizor</disponibilitate>
+					<caracteristici>
+						<descriere tip="Frecventa procesor">1.3 GHz</descriere>
+						<descriere tip="Dimensiune Cache procesor">3 MB</descriere>
+						<descriere tip="Tip unitate de stocare">HDD</descriere>
+						<descriere tip="Memorie RAM">4GB</descriere>
+						<descriere tip="Capacitate HDD">500GB</descriere>
+						<descriere tip="Pret">4684</descriere>
+					</caracteristici>
+					<poza>poza8</poza>
+				</laptop>
+				<laptop>
+					<denumire>Apple MacBook Pro</denumire>
+					<disponibilitate>In stoc furnizor</disponibilitate>
+					<caracteristici>
+						<descriere tip="Frecventa procesor">2.5 GHz</descriere>
+						<descriere tip="Dimensiune Cache procesor">3 MB</descriere>
+						<descriere tip="Tip unitate de stocare">HDD</descriere>
+						<descriere tip="Memorie RAM">4GB</descriere>
+						<descriere tip="Capacitate HDD">500GB</descriere>
+						<descriere tip="Pret">5204</descriere>
+					</caracteristici>
+					<poza>poza9</poza>
+				</laptop>
+			</procesor>
+		</producator>
+	</laptop-uri>
+</magazin>
